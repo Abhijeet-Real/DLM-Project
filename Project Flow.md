@@ -100,4 +100,3 @@
 - Translate technical results into actionable business insights.
 - Suggest **improvements or future work**.
 - Provide recommendations based on findings.
-```
