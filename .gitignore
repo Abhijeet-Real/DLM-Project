@@ -1,3 +1,4 @@
 data.zip
 .venv/
 extracted_data/
+__pycache__/
