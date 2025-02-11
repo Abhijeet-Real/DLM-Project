@@ -25,6 +25,8 @@ from sklearn.impute import SimpleImputer
 # =========================
 import cv2
 from scipy.ndimage import gaussian_filter, sobel
+from scipy.stats import boxcox
+
 
 # =========================
 # Visualization
@@ -46,6 +48,13 @@ from sklearn.metrics import (
     f1_score,
     confusion_matrix,
     classification_report
+)
+from sklearn.preprocessing import (
+    MinMaxScaler, 
+    OneHotEncoder, 
+    OrdinalEncoder, 
+    PowerTransformer, 
+    StandardScaler
 )
 from xgboost import XGBClassifier
 
