@@ -1,6 +1,4 @@
-Here is your step-by-step project workflow written in **Markdown** format:
 
-```markdown
 # **Project Report Format**
 
 ## **1. Project Information**
@@ -14,7 +12,7 @@ Here is your step-by-step project workflow written in **Markdown** format:
   ```python
   import pandas as pd
   df = pd.read_csv("data.csv")
-  ```
+  
 - **Check the structure**:
   ```python
   df.info()
